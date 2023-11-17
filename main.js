@@ -60,6 +60,7 @@ function autoplay(){
 
     if(conteggio === slider.length){
         conteggio = 0
+        slider[conteggio].classList.add("active")
 
         slider[slider.length-1].classList.remove("active")    
     }
